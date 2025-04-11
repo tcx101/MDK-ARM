@@ -1,0 +1,15 @@
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target '10'
+compiling chuankou.c...
+..\hardware\chuankou.c(35): warning:  #223-D: function "ceilf" declared implicitly
+          fee = ceilf(hours) * 5.0f;
+..\hardware\chuankou.c(38): warning:  #223-D: function "ceilf" declared implicitly
+          fee = ceilf(hours) * 8.0f;
+..\hardware\chuankou.c(143): warning:  #1-D: last line of file ends without a newline
+  }
+..\hardware\chuankou.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=21684 RO-data=5576 RW-data=60 ZI-data=2948  
+FromELF: creating hex file...
+"10\10.axf" - 0 Error(s), 3 Warning(s).
+Build Time Elapsed:  00:00:02
